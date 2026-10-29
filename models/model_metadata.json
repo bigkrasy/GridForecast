@@ -1,0 +1,18 @@
+{
+  "target": "consumption_mw",
+  "horizon_hours": 24,
+  "model_type": "XGBoost",
+  "n_features": 23,
+  "cv_mape_naive": {
+    "stable": 2.9705195409172975,
+    "sudden": 2.920659977093033,
+    "gradual": 3.7468766546992494,
+    "recurring": 3.1364649667601006
+  },
+  "cv_mape_drift_aware": {
+    "stable": 2.9705195409172975,
+    "sudden": 3.8109805560135186,
+    "gradual": 4.715485462593556,
+    "recurring": 3.1364649667601006
+  }
+}

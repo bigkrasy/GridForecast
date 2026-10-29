@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+docker/
+
+# Data (само stable е нужен — mount-ва се от compose)
+data/raw/
+data/processed/
+data/synthetic/consumption_gradual.parquet
+data/synthetic/consumption_recurring.parquet
+data/synthetic/consumption_sudden.parquet
+
+# Logs
+logs/
+*.log
+
+# Results
+results/
+
+# Notebooks
+notebooks/
+
+# Tests
+tests/
+
+# Scripts (dev only)
+scripts/
+check_features.py
+regenerate_predictions.py
+regenerate_predictions.ps1
+Start Lab.bat
+
+# Backup
+_backup_*/
+src_backup_*/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# GitHub
+.github/
+
+# Docs (освен README)
+*.md
+!README.md
