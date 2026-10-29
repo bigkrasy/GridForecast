@@ -54,6 +54,10 @@ models/*.h5
 models/*.pt
 models/*.onnx
 
+# Но ЗАДЪЛЖИТЕЛНО върни тези конкретни файлове
+!models/production_model.pkl
+!models/gridforecast_xgb.joblib
+!models/scaler.joblib
 # ============================================================
 # Logs
 # ============================================================
